@@ -1,0 +1,81 @@
+*{
+  margin: 0 auto;
+}
+
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 62%;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+header{
+  text-align: center;
+  color: lime;
+  margin-top: 50px;
+  font-size:25px;
+  margin-bottom:5px;
+  }
+
+#logo {
+  width:180px;
+}
+
+nav{
+  background-color: lime;
+  padding: 8px;
+  text-align: center;
+  line-height:10px;
+  width: 89%;
+  }
+
+input[type="button"]{
+  font-size: 10px;
+}
+
+.row{
+  font-size: 20px;
+}
+
+.box{
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  font-size:12px;
+  width: 90%;
+  }
+
+.indirizzo:before{
+   content: "\21A6";
+  }
+
+.statocarica
+{
+  padding:10px;
+  border-radius:5px;
+  margin-top: 5px;
+  margin-left: 0;
+}
+
+.statocarica.medium{
+  width: 35%;
+  background-color: orange;
+  }
+
+.statocarica.high{
+  width: 55%;
+  background-color: lime;
+  }
+
+.statocarica.low{
+  width:10%;
+  background-color:red;
+  }
